@@ -641,7 +641,7 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
 }
 .header li a {
   font-size: 0.88em;
-  color: #9090aa;
+  color: #fff;
   display: block;
 }
 .header li a:hover {
@@ -661,7 +661,7 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   }
   .header h1 + ul {
     border-left: solid 1px #dfe2e7;
-    margin-left: 15px;
+    margin-left: 28px;
   }
   .header li {
     border-left: solid 1px rgba(255,255,255,0.5);

@@ -6,6 +6,9 @@ ScriptRunner Lite for JIRA allows you to extend the functionality of JIRA, execu
 Getting started
 ---------------
 
+### Development Setup
+
+[Atlassian Development Setup](https://developer.atlassian.com/static/connect/docs/latest/guides/development-setup.html)
 
 How it works
 ------------
