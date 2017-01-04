@@ -1,7 +1,7 @@
-Script Runner Lite
+Mercury
 =======
 
-ScriptRunner Lite for JIRA allows you to extend the functionality of JIRA, executing scripts to interact with JIRA as Post Functions. Scripts can take actions such as updating an issue during a transition.
+Mercury for JIRA allows you to extend the functionality of JIRA, executing scripts to interact with JIRA as Post Functions. Scripts can take actions such as updating an issue during a transition.
 
 Getting started
 ---------------
@@ -16,10 +16,10 @@ It is recommended to test your scripts on a development or staging environment b
 2. Click the admin dropdown and choose **Atlassian Marketplace**.
    * The Manage add-ons screen loads.
 3. Click **Find new add-ons** from the left-hand side of the page.
-4. Locate **ScriptRunner Lite for JIRA** via search.
+4. Locate **Mercury for JIRA** via search.
    * The appropriate add-on version appears in the search results.
-5. Click **Try free** to begin a new trial or **Buy now** to purchase a license for **ScriptRunner Lite for JIRA**.
-   * You're prompted to log into MyAtlassian. ScriptRunner Lite for JIRA begins to download.
+5. Click **Try free** to begin a new trial or **Buy now** to purchase a license for **Mercury for JIRA**.
+   * You're prompted to log into MyAtlassian. Mercury for JIRA begins to download.
 6. Enter your information and click **Generate license** when redirected to MyAtlassian.
 7. Click **Apply license**.
    * If you're using an older version of UPM, you can copy and paste the license into your JIRA instance.
@@ -37,7 +37,7 @@ Example
 
 ### Set the issue fix version (integrating Gitlab with JIRA) 
 
-ScriptRunner Lite provides you with the ability to set the fix version automatically when <a href="https://docs.gitlab.com/ee/project_services/jira.html#jira-issue-closing-example" target="_blank">closing issues with merge requests</a>. In this example NEXTBUILD may then be used to search and bulk update issues to the real fix version when your RC build has been promoted. *Depending on how your workflow is configured you may be required to <a href="https://confluence.atlassian.com/jira/allow-editing-of-closed-issues-138704.html" target="_blank">allow edits to issues when closed</a>.*
+Mercury provides you with the ability to set the fix version automatically when <a href="https://docs.gitlab.com/ee/project_services/jira.html#jira-issue-closing-example" target="_blank">closing issues with merge requests</a>. In this example NEXTBUILD may then be used to search and bulk update issues to the real fix version when your RC build has been promoted. *Depending on how your workflow is configured you may be required to <a href="https://confluence.atlassian.com/jira/allow-editing-of-closed-issues-138704.html" target="_blank">allow edits to issues when closed</a>.*
 
 ```groovy
 import com.atlassian.jira.component.ComponentAccessor
