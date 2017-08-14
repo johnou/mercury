@@ -1,0 +1,11 @@
+<tr>
+    <td class="fieldLabelArea">
+        Script File Name/Path:
+    </td>
+    <td nowrap="nowrap">
+        <input type="text" name="scriptFileName" value="$scriptFileName" style="width: 470px" />
+        <p style="font-size: smaller">
+            The path of the script to execute. Relative paths are relative to CATALINA_BASE.
+        </p>
+    </td>
+</tr>

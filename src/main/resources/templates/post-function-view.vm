@@ -1,0 +1,5 @@
+#if( "$!errorMessage" != "" )
+    <span style="color: #d04437">Script <b>$scriptFileName</b> will not be run. $errorMessage</span>
+#else
+    Script <b>$scriptFileName</b> will be run.
+#end

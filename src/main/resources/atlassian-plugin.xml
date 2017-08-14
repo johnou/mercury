@@ -1,0 +1,27 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="Mercury for JIRA" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}" />
+        <param name="plugin-logo">images/mercury.png</param>
+        <param name="plugin-banner">images/mercury_960x600.png</param>
+        <param name="atlassian-licensing-enabled">true</param>
+        <param name="atlassian-data-center-compatible">true</param>
+    </plugin-info>
+
+    <resource type="i18n" name="i18n" location="mercury"/>
+
+    <workflow-function key="mercury-post-function" name="Script Post-Function" i18n-name-key="mercury-post-function.name"
+                       class="it.johno.jira.mercury.ScriptPostFunctionFactory">
+        <description key="mercury-post-function.description">Runs a script in a post-function.</description>
+        <function-class>it.johno.jira.mercury.ScriptPostFunction</function-class>
+        <orderable>true</orderable>
+        <unique>false</unique>
+        <deletable>true</deletable>
+        <default>false</default>
+        <resource type="velocity" name="view" location="templates/post-function-view.vm" />
+        <resource type="velocity" name="input-parameters" location="templates/post-function-edit-params.vm" />
+        <resource type="velocity" name="edit-parameters" location="templates/post-function-edit-params.vm" />
+    </workflow-function>
+
+</atlassian-plugin>
