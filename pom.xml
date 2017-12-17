@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.johno.jira</groupId>
     <artifactId>mercury</artifactId>
-    <version>0.0.14</version>
+    <version>0.0.16</version>
     <organization>
         <name>NWGG Pty Ltd</name>
         <url>http://just.johno.it/</url>
@@ -211,13 +211,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <jira.version>7.0.0</jira.version>
+        <jira.version>7.6.1</jira.version>
         <amps.version>6.2.11</amps.version>
         <plugin.testrunner.version>1.2.3</plugin.testrunner.version>
         <atlassian.spring.scanner.version>1.2.13</atlassian.spring.scanner.version>
         <!-- This key is used to keep the consistency between the key in atlassian-plugin.xml and the key to generate bundle. -->
         <atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
-        <groovy.version>2.4.12</groovy.version>
+        <groovy.version>2.4.13</groovy.version>
         <!-- TestKit version 6.x for JIRA 6.x -->
         <testkit.version>6.3.11</testkit.version>
     </properties>
