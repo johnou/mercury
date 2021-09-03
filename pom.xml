@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.johno.jira</groupId>
     <artifactId>mercury</artifactId>
-    <version>0.0.22</version>
+    <version>0.0.23</version>
     <organization>
         <name>NWGG Pty Ltd</name>
         <url>http://just.johno.it/</url>
